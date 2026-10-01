@@ -17,19 +17,37 @@
 </style>
 
 <body class="h-screen">
-    <main class=" h-[90%] bg-[#FF5200] ">
-        <nav class="flex justify-between text-[16px] items-center px-39 py-9 text-white">
-            <img  width="145" class="h-fit"
+    <main class=" h-[90%] w-screen bg-[#FF5200] flex flex-col items-center ">
+        <nav class="flex w-full justify-between text-[16px] items-center px-39 py-9 text-white">
+            <img width="145" class="h-fit"
                 src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/static-assets/images/swiggy_logo_white.png"
                 alt="">
             <div class="flex gap-6 text-xl font-[gilroy] text-[16px] items-center">
                 <p class="font-[600]">Swiggy Corporate</p>
                 <p class="font-[600]">Partner with us</p>
-                <button class="font-[800]  border border-white-600 px-4 py-[15px]  rounded-xl">Get the App <i class="ri-arrow-right-up-long-line"></i></button>
+                <button class="font-[800]  border border-white-600 px-4 py-[15px]  rounded-xl">Get the App <i
+                        class="ri-arrow-right-up-long-line"></i></button>
                 <button class="font-[800] bg-black border-2 border-black px-10 py-[13px] rounded-xl">Sign In</button>
 
             </div>
         </nav>
+        <section class="w-[78%] mt-8  flex flex-col items-center">
+            <h1 class="font-[gilroy] text-white text-[48px] font-[700] text-center">Order food & groceries.
+                Discover<br> best restaurants. Swiggy it!
+            </h1>
+            <div class="flex mt-3 ">
+                <div class="bg-white rounded-xl p-3 flex items-center gap-3">
+                    <i class="ri-map-pin-line text-[25px] text-[#FF5200]"></i>
+                    <input class="text-[16px] w-[207px] font-[gilroy] " type="text" placeholder="Enter your delivery location">
+                    <i class="ri-arrow-down-s-line text-[20px] "></i>
+                </div>
+                <div class="bg-white rounded-xl p-3 flex items-center ml-[19px]">
+                    
+                    <input class="text-[17px] w-[400px] font-bold font-[gilroy]" type="text" placeholder="Search for restaurant, item or more">
+                    <i class="ri-search-line text-[20px]"></i>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
