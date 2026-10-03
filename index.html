@@ -17,7 +17,7 @@
 </style>
 
 <body class="h-screen">
-    <main class=" h-[96%] w-screen bg-[#FF5200] flex flex-col items-center ">
+    <main class=" h-[96%] relative w-screen bg-[#FF5200] flex flex-col items-center ">
         <nav class="flex w-full justify-between text-[16px] items-center px-39 py-9 text-white  ">
             <img width="145" class="h-fit cursor-pointer"
                 src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/static-assets/images/swiggy_logo_white.png"
@@ -36,14 +36,14 @@
             <h1 class="font-[gilroy] text-white text-[45px] font-[700] text-center">Order food & groceries.
                 Discover<br> best restaurants. Swiggy it!
             </h1>
-            <div class="flex mt-3  ">
-                <div class="bg-white rounded-xl p-2 flex items-center gap-3">
+            <div class="flex mt-3 w-full justify-center ">
+                <div class="bg-white rounded-xl p-2 flex items-center gap-3 max-w-[30%]">
                     <i class="ri-map-pin-line text-[25px] text-[#FF5200]"></i>
                     <input class="text-[16px] w-[207px] font-[gilroy]  outline-none " type="text"
                         placeholder="Enter your delivery location">
                     <i class="ri-arrow-down-s-line text-[30px] "></i>
                 </div>
-                <div class="bg-white rounded-xl p-2 flex items-center ml-[19px]">
+                <div class="bg-white rounded-xl p-2 flex items-center ml-[19px] max-w-[60%]">
 
                     <input class="text-[17px] w-[400px] ml-[10px] font-bold font-[gilroy] outline-none " type="text"
                         placeholder="Search for restaurant, item or more">
@@ -51,19 +51,25 @@
                 </div>
             </div>
             <div class="flex mt-[40px] ">
-                <img width="400"
+                <img class="w-full max-w-[360px]"
                     src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/ec86a309-9b06-48e2-9adc-35753f06bc0a_Food3BU.png"
                     alt="">
-                <img width="400"
+                <img  class="w-full max-w-[360px]"
                     src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b5c57bbf-df54-4dad-95d1-62e3a7a8424d_IM3BU.png"
                     alt="">
-                <img width="400"
+                <img class="w-full max-w-[360px]"
                     src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b6d9b7ab-91c7-4f72-9bf2-fcd4ceec3537_DO3BU.png"
                     alt="">
             </div>
-            <div class="bg-white w-full h-1.5">
+            <div class="bg-white w-full h-2">
 
             </div>
+            <img width="250" class="absolute left-0 top-[10%]"
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Veggies_new.png"
+                alt="">
+            <img width="250" class="absolute right-0 top-[10%] "
+                src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/portal/testing/seo-home/Sushi_replace.png"
+                alt="">
         </section>
     </main>
 </body>
